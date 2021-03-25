@@ -23,9 +23,9 @@
             </a>
           </li>
           <li>
-            <a href="./icons.html">
+            <a href="{{ route('room-meeting') }}">
               <i class="nc-icon nc-diamond"></i>
-              <p>Icons</p>
+              <p>Room Meeting</p>
             </a>
           </li>
           <li>

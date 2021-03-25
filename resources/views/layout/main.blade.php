@@ -19,6 +19,7 @@
     <div class="main-panel">
     @include('layout.header')
       <div class="content">
+      @yield('content')
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="card card-stats">

@@ -20,3 +20,13 @@ Route::get('/', function () {
 Route::get('/layout',function(){
     return view('layout.main');
 });
+
+//Route::get('/room-meeting',[
+//    'uses' => 'RoomMeetingController@index',
+//    'as' => 'room-meeting'
+//]);
+
+use App\Http\Controllers\RoomMeetingController;
+Route::get('/room-meeting' , [RoomMeetingController::class,'index'])
+->name('room-meeting');
+
